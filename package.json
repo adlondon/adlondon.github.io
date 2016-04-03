@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "node-sass": "^3.4.2",
+    "sticky-anything": "git://github.com/senff/Sticky-Anything.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adlondon/resume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adlondon/resume/issues"
+  },
+  "homepage": "https://github.com/adlondon/resume#readme",
+  "description": ""
+}

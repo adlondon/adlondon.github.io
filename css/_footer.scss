@@ -1,0 +1,51 @@
+footer {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: $black;
+  h1 {
+    color: $white;
+    // border-bottom: 3px solid $blue;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    .contact-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 15px;
+      font-size: 34px;
+      border: 1px solid $black;
+      width: 50px;
+      height: 50px;
+    }
+  }
+  #phone {
+    color: $white;
+  }
+  .social-icon {
+    margin:15px;
+    font-size: 34px;
+  }
+}
+
+a {
+  color: $white;
+  transition: all .3s ease-in-out;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+}

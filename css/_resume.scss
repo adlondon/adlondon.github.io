@@ -1,0 +1,71 @@
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10%;
+  justify-content: center;
+  .resume-headings {
+    margin: 0 50%;
+  }
+  h1 {
+    border: 5px solid $black;
+    margin: 0;
+    padding: 10px;
+  }
+  .resume-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .resume-col {
+      display:flex;
+      flex-direction: column;
+      width:40%;
+      padding: 3%;
+      .exp {
+        min-height: 200px;
+        position: relative;
+        border: 3px solid $blue;
+        border-radius: 2px;
+        margin: 10%;
+        padding: 5%;
+        .arrow-right {
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 30px solid transparent;
+          border-bottom: 30px solid transparent;
+          border-left: 30px solid $white;
+          left: 99.6%;
+          top: 37%;
+        }
+        .arrow-right-border {
+          @extend .arrow-right;
+          border-left: 30px solid $blue;
+          left: 100.8%;
+          z-index: -1;
+          top: 37%;
+        }
+        .arrow-left {
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 30px solid transparent;
+          border-bottom: 30px solid transparent;
+          border-right: 30px solid $white;
+          right: 99.6%;
+          top: 37%;
+        }
+        .arrow-left-border {
+          @extend .arrow-left;
+          border-right: 30px solid $blue;
+          right: 100.8%;
+          z-index: -1;
+          top: 37%;
+        }
+      }
+    }
+    .right-col {
+      padding-top: 200px;
+      border-left: 5px solid $black;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1433360405326-e50f909805b3?crop=entropy&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    color: $white;
+    font-size: 100px;
+    margin: 0;
+    // font-weight: 800;
+    span {
+      font-weight: 100;
+    }
+  }
+  h3 {
+    color: $white;
+    font-size: 30px;
+    border-top: 3px solid $blue;
+    border-bottom: 3px solid $blue;
+  }
+  button {
+    padding: 6px;
+    color: $white;
+    background-color: transparent;
+    border: 1px solid $white;
+    outline: none;
+  }
+}

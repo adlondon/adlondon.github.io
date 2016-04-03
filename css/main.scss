@@ -1,0 +1,26 @@
+//https://coolors.co/app/2274a5-e7dfc6-e9f1f7-131b23-816c61
+
+$black: #131B23;
+$blue: #2274A5;
+$white: #E9F1F7;
+$tan: #C6AC8F;
+$brown: #5E503F;
+$green: #22a553;
+
+@import 'header';
+@import 'navbar';
+@import 'about';
+@import 'resume';
+@import 'portfolio';
+@import 'footer';
+
+body {
+  color: $brown;
+  background-color: $white;
+  font-family: Raleway, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}

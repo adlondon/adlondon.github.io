@@ -54,7 +54,8 @@ nav {
     flex-direction: row-reverse;
     margin-top: 5%; }
     .about .about-div .about-picture {
-      margin-right: 5%; }
+      margin-right: 5%;
+      width: 100%; }
     .about .about-div .about-paragraph {
       margin-top: 0;
       font-size: 20px; }
@@ -183,5 +184,5 @@ body {
   font-family: Raleway, sans-serif; }
 
 .container {
-  width: 1200px;
+  width: 90%;
   margin: 0 auto; }

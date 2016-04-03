@@ -14,6 +14,11 @@ $green: #22a553;
 @import 'portfolio';
 @import 'footer';
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: $brown;
   background-color: $white;
@@ -21,6 +26,6 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 1200px;
   margin: 0 auto;
 }

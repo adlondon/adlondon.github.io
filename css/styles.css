@@ -127,8 +127,7 @@ nav {
   width: 60%;
   margin: 0 auto 10% auto;
   text-align: center;
-  padding: 0 3% 3% 3%;
-  margin-top: 10%; }
+  padding: 0 3% 3% 3%; }
   .portfolio img {
     width: 100%; }
 
@@ -174,11 +173,15 @@ a {
     color: #2274A5;
     text-decoration: none; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
   color: #5E503F;
   background-color: #E9F1F7;
   font-family: Raleway, sans-serif; }
 
 .container {
-  width: 90%;
+  width: 1200px;
   margin: 0 auto; }

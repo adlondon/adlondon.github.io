@@ -126,7 +126,9 @@ nav {
   border: 5px solid #2274A5;
   width: 60%;
   margin: 0 auto 10% auto;
-  text-align: center; }
+  text-align: center;
+  padding: 0 3% 3% 3%;
+  margin-top: 10%; }
   .portfolio img {
     width: 100%; }
 

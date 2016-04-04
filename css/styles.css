@@ -51,22 +51,21 @@ nav {
   justify-content: center; }
   .about .about-div {
     display: flex;
-    flex-direction: row-reverse;
     margin-top: 5%; }
     .about .about-div .about-picture {
       margin-right: 5%;
-      width: 100%; }
+      width: 75%;
+      height: 100%; }
     .about .about-div .about-paragraph {
       margin-top: 0;
-      font-size: 20px; }
+      font-size: 20px;
+      width: 125%; }
 
 .resume {
   display: flex;
   flex-wrap: wrap;
   padding-top: 10%;
   justify-content: center; }
-  .resume .resume-headings {
-    margin: 0 50%; }
   .resume h1 {
     border: 5px solid #131B23;
     margin: 0;
@@ -173,10 +172,6 @@ a {
   a:hover {
     color: #2274A5;
     text-decoration: none; }
-
-* {
-  margin: 0;
-  padding: 0; }
 
 body {
   color: #5E503F;

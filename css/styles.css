@@ -19,6 +19,7 @@
     border-top: 3px solid #2274A5;
     border-bottom: 3px solid #2274A5; }
   .hero button {
+    margin-top: 30px;
     padding: 6px;
     color: #E9F1F7;
     background-color: transparent;
@@ -32,17 +33,20 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: #131B23;
-    margin-top: 0; }
+    padding: 0; }
     nav ul a {
       text-decoration: none;
       color: #E9F1F7;
       list-style-type: none;
-      width: 100px;
+      width: 20%;
       padding: 25px;
       margin-top: 0px;
       transition: all .3s ease-in-out; }
       nav ul a:hover {
         color: #2274A5; }
+      nav ul a li {
+        font-size: 24px;
+        text-align: center; }
 
 .about {
   display: flex;
@@ -133,18 +137,17 @@ nav {
 
 footer {
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 12%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   background-color: #131B23; }
   footer h1 {
     color: #E9F1F7;
-    width: 100%;
     text-align: center;
     margin-bottom: 5%; }
   footer .contact {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,11 +161,20 @@ footer {
       border: 1px solid #131B23;
       width: 50px;
       height: 50px; }
+    footer .contact .contact-info {
+      font-size: 24px; }
+      footer .contact .contact-info p {
+        margin-bottom: 0; }
   footer #phone {
     color: #E9F1F7; }
-  footer .social-icon {
-    margin: 15px;
-    font-size: 34px; }
+    footer #phone p {
+      margin-bottom: 10px; }
+  footer .social-icon-wrapper {
+    display: flex;
+    justify-content: center; }
+    footer .social-icon-wrapper .social-icon {
+      margin: 15px;
+      font-size: 34px; }
 
 a {
   color: #E9F1F7;
@@ -172,6 +184,9 @@ a {
   a:hover {
     color: #2274A5;
     text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
 
 body {
   color: #5E503F;

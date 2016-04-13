@@ -1,5 +1,7 @@
 
 $(document).ready(function() {
-  $.localScroll()
+  // $.localScroll()
+  $('.scroll').localScroll()
+  // $.localScroll()
   $('nav').sticky();
 });

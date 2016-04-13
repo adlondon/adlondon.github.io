@@ -5,6 +5,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1433360405326-e50f909805b3?crop=entropy&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   align-items: center;
   justify-content: center; }
   .hero h1 {
@@ -104,6 +105,16 @@ nav {
           left: 100.8%;
           z-index: -1;
           top: 37%; }
+          .resume .resume-div .resume-col .exp .arrow-right-border::before {
+            content: ' ';
+            display: block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: -5px;
+            border-radius: 10px;
+            z-index: 2;
+            background-color: #098B8C; }
         .resume .resume-div .resume-col .exp .arrow-left, .resume .resume-div .resume-col .exp .arrow-left-border {
           position: absolute;
           width: 0;

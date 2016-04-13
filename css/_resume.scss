@@ -43,6 +43,17 @@
           left: 100.8%;
           z-index: -1;
           top: 37%;
+          &::before {
+            content: ' ';
+            display: block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: -5px;
+            border-radius: 10px;
+            z-index: 2;
+            background-color: #098B8C;
+          }
         }
         .arrow-left {
           position: absolute;

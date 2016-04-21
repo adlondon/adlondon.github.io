@@ -3,13 +3,11 @@
   flex-wrap: wrap;
   padding-top: 10%;
   justify-content: center;
-  .resume-headings {
-    // margin: 0 50%;
-  }
   h1 {
-    border: 5px solid $black;
+    border: 2px solid $black;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
+    color: $blue;
   }
   .resume-div {
     display: flex;
@@ -19,60 +17,63 @@
     .resume-col {
       display:flex;
       flex-direction: column;
-      width:40%;
-      padding: 3%;
+      width:25%;
+      // padding: 3%;
       text-align: right;
+      .resume-title {
+        font-weight: bold;
+        color: #098B8C;
+      }
       .exp {
         // min-height: 200px;
         // width: 400px;
         position: relative;
+        // width: 70%;
         // border: 3px solid $blue;
         // border-radius: 2px;
         margin: 10%;
         padding: 5%;
-        background-color: $blue;
-        color: $white;
+        // background-color: $blue;
+        color: $black;
         .arrow-right {
-          position: absolute;
-          width: 0;
-          height: 0;
-          border-top: 42px solid transparent;
-          border-bottom: 42px solid transparent;
-          border-left: 42px solid $white;
-          left: 100%;
-          top: 0;
-        }
-        .arrow-right-border {
-          @extend .arrow-right;
-          border-left: 42px solid $blue;
-          left: 100%;
-          z-index: -1;
-          top: 0;
+          &::before {
+            content: ' ';
+            display: block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: 27px;
+            right: -31px;
+            border-radius: 10px;
+            z-index: 2;
+            background-color: #098B8C;
+            }
         }
         .arrow-left {
-          position: absolute;
-          width: 0;
-          height: 0;
-          border-top: 42px solid transparent;
-          border-bottom: 42px solid transparent;
-          border-right: 42px solid $white;
-          right: 100%;
-          top: 0;
+          &::before {
+             content: ' ';
+             display: block;
+             width: 10px;
+             height: 10px;
+             position: absolute;
+             top: 27px;
+             left: -31px;
+             border-radius: 10px;
+             z-index: 2;
+             background-color: #098B8C;
+           }
         }
-        .arrow-left-border {
-          @extend .arrow-left;
-          border-right: 42px solid $blue;
-          right: 100%;
-          z-index: -1;
-          top: 0;
+        h5 {
+          font-size: 16px;
         }
       }
     }
 
 
     .right-col {
-      padding-top: 112px;
-      border-left: 5px solid $black;
+      margin-top: 61px;
+      padding-top: 14px;
+      border-left: 2px solid #131B23;
       text-align: left;
     }
   }

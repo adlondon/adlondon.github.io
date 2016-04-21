@@ -40,7 +40,7 @@ nav {
       color: #E9F1F7;
       list-style-type: none;
       width: 20%;
-      padding: 25px;
+      padding: 20px;
       margin-top: 0px;
       transition: all .3s ease-in-out; }
       nav ul a:active {
@@ -74,9 +74,10 @@ nav {
   padding-top: 10%;
   justify-content: center; }
   .resume h1 {
-    border: 5px solid #131B23;
+    border: 2px solid #131B23;
     margin: 0;
-    padding: 10px; }
+    padding: 20px;
+    color: #2274A5; }
   .resume .resume-div {
     display: flex;
     flex-wrap: wrap;
@@ -85,46 +86,44 @@ nav {
     .resume .resume-div .resume-col {
       display: flex;
       flex-direction: column;
-      width: 40%;
-      padding: 3%;
+      width: 25%;
       text-align: right; }
+      .resume .resume-div .resume-col .resume-title {
+        font-weight: bold;
+        color: #098B8C; }
       .resume .resume-div .resume-col .exp {
         position: relative;
         margin: 10%;
         padding: 5%;
-        background-color: #2274A5;
-        color: #E9F1F7; }
-        .resume .resume-div .resume-col .exp .arrow-right, .resume .resume-div .resume-col .exp .arrow-right-border {
+        color: #131B23; }
+        .resume .resume-div .resume-col .exp .arrow-right::before {
+          content: ' ';
+          display: block;
+          width: 10px;
+          height: 10px;
           position: absolute;
-          width: 0;
-          height: 0;
-          border-top: 42px solid transparent;
-          border-bottom: 42px solid transparent;
-          border-left: 42px solid #E9F1F7;
-          left: 100%;
-          top: 0; }
-        .resume .resume-div .resume-col .exp .arrow-right-border {
-          border-left: 42px solid #2274A5;
-          left: 100%;
-          z-index: -1;
-          top: 0; }
-        .resume .resume-div .resume-col .exp .arrow-left, .resume .resume-div .resume-col .exp .arrow-left-border {
+          top: 27px;
+          right: -31px;
+          border-radius: 10px;
+          z-index: 2;
+          background-color: #098B8C; }
+        .resume .resume-div .resume-col .exp .arrow-left::before {
+          content: ' ';
+          display: block;
+          width: 10px;
+          height: 10px;
           position: absolute;
-          width: 0;
-          height: 0;
-          border-top: 42px solid transparent;
-          border-bottom: 42px solid transparent;
-          border-right: 42px solid #E9F1F7;
-          right: 100%;
-          top: 0; }
-        .resume .resume-div .resume-col .exp .arrow-left-border {
-          border-right: 42px solid #2274A5;
-          right: 100%;
-          z-index: -1;
-          top: 0; }
+          top: 27px;
+          left: -31px;
+          border-radius: 10px;
+          z-index: 2;
+          background-color: #098B8C; }
+        .resume .resume-div .resume-col .exp h5 {
+          font-size: 16px; }
     .resume .resume-div .right-col {
-      padding-top: 112px;
-      border-left: 5px solid #131B23;
+      margin-top: 61px;
+      padding-top: 14px;
+      border-left: 2px solid #131B23;
       text-align: left; }
 
 .portfolio-padding {
@@ -132,7 +131,7 @@ nav {
   content: ""; }
 
 .portfolio {
-  border: 5px solid #2274A5;
+  border: 2px solid #2274A5;
   width: 60%;
   margin: 0 auto 10% auto;
   text-align: center;

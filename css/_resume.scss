@@ -15,68 +15,65 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
     .resume-col {
       display:flex;
       flex-direction: column;
       width:40%;
       padding: 3%;
+      text-align: right;
       .exp {
-        min-height: 200px;
+        // min-height: 200px;
+        // width: 400px;
         position: relative;
-        border: 3px solid $blue;
-        border-radius: 2px;
+        // border: 3px solid $blue;
+        // border-radius: 2px;
         margin: 10%;
         padding: 5%;
+        background-color: $blue;
+        color: $white;
         .arrow-right {
           position: absolute;
           width: 0;
           height: 0;
-          border-top: 30px solid transparent;
-          border-bottom: 30px solid transparent;
-          border-left: 30px solid $white;
-          left: 99.6%;
-          top: 37%;
+          border-top: 42px solid transparent;
+          border-bottom: 42px solid transparent;
+          border-left: 42px solid $white;
+          left: 100%;
+          top: 0;
         }
         .arrow-right-border {
           @extend .arrow-right;
-          border-left: 30px solid $blue;
-          left: 100.8%;
+          border-left: 42px solid $blue;
+          left: 100%;
           z-index: -1;
-          top: 37%;
-          &::before {
-            content: ' ';
-            display: block;
-            width: 10px;
-            height: 10px;
-            position: absolute;
-            top: -5px;
-            border-radius: 10px;
-            z-index: 2;
-            background-color: #098B8C;
-          }
+          top: 0;
         }
         .arrow-left {
           position: absolute;
           width: 0;
           height: 0;
-          border-top: 30px solid transparent;
-          border-bottom: 30px solid transparent;
-          border-right: 30px solid $white;
-          right: 99.6%;
-          top: 37%;
+          border-top: 42px solid transparent;
+          border-bottom: 42px solid transparent;
+          border-right: 42px solid $white;
+          right: 100%;
+          top: 0;
         }
         .arrow-left-border {
           @extend .arrow-left;
-          border-right: 30px solid $blue;
-          right: 100.8%;
+          border-right: 42px solid $blue;
+          right: 100%;
           z-index: -1;
-          top: 37%;
+          top: 0;
         }
       }
     }
+
+
     .right-col {
-      padding-top: 200px;
+      padding-top: 112px;
       border-left: 5px solid $black;
+      text-align: left;
     }
   }
 }

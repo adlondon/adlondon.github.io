@@ -80,52 +80,60 @@ nav {
   .resume .resume-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%; }
+    justify-content: center; }
     .resume .resume-div .resume-col {
       display: flex;
       flex-direction: column;
       width: 40%;
-      padding: 3%;
-      text-align: right; }
+      padding: 3%; }
       .resume .resume-div .resume-col .exp {
+        min-height: 200px;
         position: relative;
+        border: 3px solid #2274A5;
+        border-radius: 2px;
         margin: 10%;
-        padding: 5%;
-        background-color: #2274A5;
-        color: #E9F1F7; }
+        padding: 5%; }
         .resume .resume-div .resume-col .exp .arrow-right, .resume .resume-div .resume-col .exp .arrow-right-border {
           position: absolute;
           width: 0;
           height: 0;
-          border-top: 42px solid transparent;
-          border-bottom: 42px solid transparent;
-          border-left: 42px solid #E9F1F7;
-          left: 100%;
-          top: 0; }
+          border-top: 30px solid transparent;
+          border-bottom: 30px solid transparent;
+          border-left: 30px solid #E9F1F7;
+          left: 99.6%;
+          top: 37%; }
         .resume .resume-div .resume-col .exp .arrow-right-border {
-          border-left: 42px solid #2274A5;
-          left: 100%;
+          border-left: 30px solid #2274A5;
+          left: 100.8%;
           z-index: -1;
-          top: 0; }
+          top: 37%; }
+          .resume .resume-div .resume-col .exp .arrow-right-border::before {
+            content: ' ';
+            display: block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: -5px;
+            border-radius: 10px;
+            z-index: 2;
+            background-color: #098B8C; }
         .resume .resume-div .resume-col .exp .arrow-left, .resume .resume-div .resume-col .exp .arrow-left-border {
           position: absolute;
           width: 0;
           height: 0;
-          border-top: 42px solid transparent;
-          border-bottom: 42px solid transparent;
-          border-right: 42px solid #E9F1F7;
-          right: 100%;
-          top: 0; }
+          border-top: 30px solid transparent;
+          border-bottom: 30px solid transparent;
+          border-right: 30px solid #E9F1F7;
+          right: 99.6%;
+          top: 37%; }
         .resume .resume-div .resume-col .exp .arrow-left-border {
-          border-right: 42px solid #2274A5;
-          right: 100%;
+          border-right: 30px solid #2274A5;
+          right: 100.8%;
           z-index: -1;
-          top: 0; }
+          top: 37%; }
     .resume .resume-div .right-col {
-      padding-top: 112px;
-      border-left: 5px solid #131B23;
-      text-align: left; }
+      padding-top: 200px;
+      border-left: 5px solid #131B23; }
 
 .portfolio-padding {
   padding-bottom: 10%;
@@ -199,5 +207,5 @@ body {
   font-family: Raleway, sans-serif; }
 
 .container {
-  width: 1050px;
+  width: 90%;
   margin: 0 auto; }

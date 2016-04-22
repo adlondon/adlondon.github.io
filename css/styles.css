@@ -77,7 +77,11 @@ nav {
     border: 2px solid #131B23;
     margin: 0;
     padding: 20px;
-    color: #2274A5; }
+    color: #2274A5;
+    transition: all .3s ease-in-out; }
+    .resume h1:hover {
+      background-color: #2274A5 !important;
+      color: #E9F1F7 !important; }
   .resume .resume-div {
     display: flex;
     flex-wrap: wrap;

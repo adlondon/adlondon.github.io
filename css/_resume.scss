@@ -8,6 +8,11 @@
     margin: 0;
     padding: 20px;
     color: $blue;
+    transition: all .3s ease-in-out;
+    &:hover {
+      background-color: $blue !important;
+      color: $white !important;
+    }
   }
   .resume-div {
     display: flex;

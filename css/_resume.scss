@@ -22,9 +22,10 @@
     .resume-col {
       display:flex;
       flex-direction: column;
-      width:25%;
+      width:50%;
       // padding: 3%;
       text-align: right;
+      margin-top: 43px;
       .resume-title {
         font-weight: bold;
         color: #098B8C;
@@ -36,8 +37,9 @@
         // width: 70%;
         // border: 3px solid $blue;
         // border-radius: 2px;
-        margin: 10%;
-        padding: 5%;
+        font-size: 20px;
+        margin: 0%;
+        padding: 26px 29px;
         // background-color: $blue;
         color: $black;
         .arrow-right {
@@ -47,8 +49,8 @@
             width: 10px;
             height: 10px;
             position: absolute;
-            top: 27px;
-            right: -31px;
+            top: 54px;
+            right: -6px;
             border-radius: 10px;
             z-index: 2;
             background-color: #098B8C;
@@ -61,8 +63,8 @@
              width: 10px;
              height: 10px;
              position: absolute;
-             top: 27px;
-             left: -31px;
+             top: 54px;
+             left: -6px;
              border-radius: 10px;
              z-index: 2;
              background-color: #098B8C;
@@ -76,10 +78,11 @@
 
 
     .right-col {
-      margin-top: 61px;
-      padding-top: 14px;
-      border-left: 2px solid #131B23;
+      margin-top: 105px;
+      padding-top: 5px;
+      border-left: 2px solid $tan;
       text-align: left;
+      padding-bottom: 125px;
     }
   }
 }

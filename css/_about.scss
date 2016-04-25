@@ -9,13 +9,18 @@
     margin-top: 5%;
     .about-picture {
       margin-right: 5%;
-      width: 300px;
+      width: 275px;
       height: 100%;
     }
     .about-paragraph {
       margin-top: 0;
       font-size: 20px;
       width: 125%;
+      .headline {
+        font-size: 27px;
+        font-weight: bold;
+        margin-top: -8px;
+      }
     }
   }
 }

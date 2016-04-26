@@ -59,10 +59,10 @@ nav {
   .about .about-div {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 5%; }
     .about .about-div .about-picture {
-      margin-right: 5%;
-      width: 275px;
+      width: 24%;
       height: 100%;
       border-radius: 100%; }
     .about .about-div .about-paragraph {
@@ -70,15 +70,12 @@ nav {
       font-size: 20px;
       width: 33%; }
       .about .about-div .about-paragraph .headline {
-        font-size: 19px;
+        font-size: 20px;
         font-weight: bold;
         margin-top: -8px; }
     .about .about-div .skills {
-      text-align: center; }
-      .about .about-div .skills .headline {
-        font-size: 19px;
-        font-weight: bold;
-        margin-top: -8px; }
+      text-align: center;
+      margin-top: -26px; }
       .about .about-div .skills p {
         font-size: 20px; }
 

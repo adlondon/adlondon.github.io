@@ -6,10 +6,10 @@
   .about-div {
     display: flex;
     justify-content: space-around;
-   margin-top: 5%;
+    align-items: center;
+     margin-top: 5%;
     .about-picture {
-      margin-right: 5%;
-      width: 275px;
+      width: 24%;
       height: 100%;
       border-radius: 100%;
     }
@@ -18,18 +18,14 @@
       font-size: 20px;
       width: 33%;
       .headline {
-        font-size: 19px;
+        font-size: 20px;
         font-weight: bold;
         margin-top: -8px;
       }
     }
     .skills {
       text-align: center;
-      .headline {
-        font-size: 19px;
-        font-weight: bold;
-        margin-top: -8px;
-      }
+      margin-top: -26px;
       p {
         font-size: 20px;
       }

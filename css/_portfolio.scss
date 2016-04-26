@@ -3,6 +3,7 @@
   content: "";
 }
 
+
 //Help with the hover effects in Bootstraps slider came from http://miketricking.github.io/dist/
 .portfolio {
   border: 2px solid $tan;
@@ -69,7 +70,6 @@
         transition-delay:.2s;
         h3 {
           display: inline-block;
-          border: 2px solid $black;
           width: 200px;
           margin: 37px;
           padding: 20px;

@@ -5,21 +5,33 @@
   justify-content: center;
   .about-div {
     display: flex;
-    // flex-direction: row-reverse;
-    margin-top: 5%;
+    justify-content: space-around;
+   margin-top: 5%;
     .about-picture {
       margin-right: 5%;
       width: 275px;
       height: 100%;
+      border-radius: 100%;
     }
     .about-paragraph {
       margin-top: 0;
       font-size: 20px;
-      width: 125%;
+      width: 33%;
       .headline {
-        font-size: 27px;
+        font-size: 19px;
         font-weight: bold;
         margin-top: -8px;
+      }
+    }
+    .skills {
+      text-align: center;
+      .headline {
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: -8px;
+      }
+      p {
+        font-size: 20px;
       }
     }
   }

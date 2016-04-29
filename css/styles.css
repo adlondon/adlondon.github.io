@@ -64,7 +64,6 @@ nav {
       height: 100%;
       border-radius: 100%; }
     .about .about-div .about-paragraph {
-      margin-top: 0;
       font-size: 20px;
       width: 36%;
       margin-right: 2%; }
@@ -73,8 +72,40 @@ nav {
     .about .about-div .skills {
       width: 38%;
       text-align: center; }
+      .about .about-div .skills h3 {
+        margin-top: 0px; }
       .about .about-div .skills p {
         font-size: 20px; }
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8%;
+    justify-content: center; }
+    .about .about-div {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 5%; }
+      .about .about-div .about-picture {
+        width: 75%;
+        height: 100%;
+        border-radius: 100%; }
+      .about .about-div .about-paragraph {
+        font-size: 20px;
+        width: 100%;
+        margin-right: 2%; }
+        .about .about-div .about-paragraph h3 {
+          margin-top: 20px; }
+      .about .about-div .skills {
+        width: 100%;
+        text-align: center; }
+        .about .about-div .skills h3 {
+          margin-top: 20px; }
+        .about .about-div .skills p {
+          font-size: 20px; } }
 
 .resume {
   display: flex;
@@ -82,7 +113,7 @@ nav {
   padding-top: 10%;
   justify-content: center; }
   .resume h1 {
-    border: 2px solid #131B23;
+    border: 2px solid #5E503F;
     margin: 0;
     padding: 20px;
     color: #2274A5;
@@ -103,13 +134,13 @@ nav {
       margin-top: 43px; }
       .resume .resume-div .resume-col .resume-title {
         font-weight: bold;
-        color: #098B8C; }
+        color: #2274A5; }
       .resume .resume-div .resume-col .exp {
         position: relative;
         font-size: 20px;
         margin: 0%;
         padding: 26px 29px;
-        color: #131B23; }
+        color: #5E503F; }
         .resume .resume-div .resume-col .exp .arrow-right::before {
           content: ' ';
           display: block;
@@ -137,7 +168,7 @@ nav {
     .resume .resume-div .right-col {
       margin-top: 105px;
       padding-top: 5px;
-      border-left: 2px solid #C6AC8F;
+      border-left: 2px solid #2274A5;
       text-align: left;
       padding-bottom: 55px; }
 
@@ -154,7 +185,7 @@ nav {
     display: inline-block;
     padding: 20px;
     margin: 0 auto;
-    border: 2px solid #C6AC8F;
+    border: 2px solid #098B8C;
     margin-bottom: 20px;
     z-index: 10;
     position: relative;
@@ -164,7 +195,7 @@ nav {
     .portfolio .carousel-wrap .carousel {
       padding: 63px;
       margin-top: -63px;
-      border: 2px solid #C6AC8F;
+      border: 2px solid #098B8C;
       position: static; }
       .portfolio .carousel-wrap .carousel .carousel-control {
         margin: 10px; }

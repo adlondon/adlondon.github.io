@@ -17,7 +17,7 @@
     display: inline-block;
     padding: 20px;
     margin: 0 auto;
-    border: 2px solid $tan;
+    border: 2px solid $green;
     margin-bottom: 20px;
     z-index: 10;
     position: relative;
@@ -28,7 +28,7 @@
     .carousel {
         padding: 63px;
         margin-top: -63px;
-        border: 2px solid $tan;
+        border: 2px solid $green;
         position: static;
       .carousel-control {
         margin:10px;
@@ -110,23 +110,3 @@
     }
   }
 }
-
-
-
-
-//////// Standard slider
-// .portfolio-padding {
-//   padding-bottom: 10%;
-//   content: "";
-// }
-//
-// .portfolio {
-//   border: 2px solid $blue;
-//   width: 60%;
-//   margin: 0 auto 10% auto;
-//   text-align: center;
-//   padding: 0 3% 3% 3%;
-//   img {
-//     width: 100%;
-//   }
-// }

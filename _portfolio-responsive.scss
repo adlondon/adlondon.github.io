@@ -1,0 +1,40 @@
+@media only screen and (min-width : 0px) and (max-width : 800px) {
+  .carousel-wrap {
+    display: none;
+  }
+
+  .portfolio {
+    width: 75%;
+    margin: 0 auto 10% auto;
+    text-align: center;
+    padding: 0 3% 3% 3%;
+    position: relative;
+    .portfolio-h1 {
+      border: none;
+    }
+    .portfolio-res {
+      display: flex !important;
+      .portfolio-card {
+        img {
+          width: 100%;
+        }
+        a {
+          color:$blue;
+          p {
+            font-size: 20px;
+          }
+        }
+        // .button-wrap {
+        //   display: flex;
+        //   justify-content: space-around;;
+        //   h3 {
+        //     color: $blue !important;
+        //     background-color: white;
+        //     border: 2px solid $blue;
+        //     padding: 10px;
+        //   }
+        // }
+      }
+    }
+  }
+}

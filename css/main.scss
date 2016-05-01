@@ -8,12 +8,17 @@ $brown: #5E503F;
 $green: #098B8C;
 
 @import 'header';
+@import 'header-responsive';
 @import 'navbar';
+@import 'navbar-responsive';
 @import 'about';
 @import 'about-responsive';
 @import 'resume';
+@import 'resume-responsive';
 @import 'portfolio';
+@import 'portfolio-responsive';
 @import 'footer';
+@import 'footer-responsive';
 
 * {
   box-sizing: border-box;
@@ -23,6 +28,7 @@ body {
   color: $brown;
   background-color: $white;
   font-family: Raleway, sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -31,13 +37,14 @@ body {
   padding: 0;
 }
 
-.portfolio-wrap {
-  width: 1050px;
-margin: 0 auto;
 
-}
 
-.border-bottom {
-  width: 100%;
-  border-bottom: 2px solid $tan;
+
+
+@media only screen and (min-width : 0px) and (max-width : 800px) {
+    .container {
+    // width: 375px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }

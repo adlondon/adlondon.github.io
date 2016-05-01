@@ -1,3 +1,4 @@
+@media only screen and (min-width : 0px) and (max-width : 800px) {
   .resume {
     display: flex;
     flex-wrap: wrap;
@@ -5,7 +6,7 @@
     justify-content: center;
     h1 {
       border: 2px solid $brown;
-      margin: 0;
+      margin: 0 0 100px 0;
       padding: 20px;
       color: $blue;
       transition: all .3s ease-in-out;
@@ -18,52 +19,32 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      width: 100%;
+      width: 75%;
+      border-left: 2px solid $blue;
       .resume-col {
+        // border-left: 2px solid $blue;
         display:flex;
         flex-direction: column;
-        width:800px;
-        padding: 0;
-        text-align: right;
-        margin: 0;
+        width:100%;
+        // padding: 3%;
+        text-align: left;
+        margin-top: 0;
         .resume-title {
           font-weight: bold;
           color: $blue;
         }
         .exp {
-          list-style-type: none;
           // min-height: 200px;
           // width: 400px;
           position: relative;
-          width: 400px;
           // width: 70%;
           // border: 3px solid $blue;
           // border-radius: 2px;
           font-size: 20px;
           margin: 0%;
-          padding: 0 29px;
+          padding: 26px 29px;
           // background-color: $blue;
           color: $brown;
-          margin-right: 400px;
-          border-right: 2px solid $blue;
-          &:first-child {
-            padding-top: 70px;
-            .arrow-right {
-              &::before {
-                top: 100px;
-              }
-            }
-          }
-          &:last-child {
-            padding-bottom: 100px;
-          }
-          &:nth-child(2n) {
-            margin-left: 398px;
-            margin-right: 0;
-            text-align: left;
-            border-right: none;
-            border-left: 2px solid $blue
-          }
           .arrow-right {
             &::before {
               content: ' ';
@@ -71,8 +52,8 @@
               width: 10px;
               height: 10px;
               position: absolute;
-              top: 29px;
-              right: -6px;
+              top: 54px;
+              left: -6px;
               border-radius: 10px;
               z-index: 2;
               background-color: $green;
@@ -85,7 +66,7 @@
                width: 10px;
                height: 10px;
                position: absolute;
-               top: 29px;
+               top: 54px;
                left: -6px;
                border-radius: 10px;
                z-index: 2;
@@ -96,6 +77,38 @@
             font-size: 16px;
           }
         }
+        #first-exp {
+          padding-top: 0;
+          margin-top: -9px;
+          .resume-title {
+            margin-top: 0;
+          }
+          .arrow-right::before {
+            top: 8px;
+          }
+        }
+        #last-exp {
+          margin-left: -3px;
+          // padding-bottom: 0;
+          // padding-top: 0;
+          border-left: 4px solid white;
+          margin-top: 37px;
+          z-index: 2;
+          h3 {
+            margin-top: -37px;
+          }
+          .arrow-left::before {
+            top: -5px;
+            left: -7px;
+          }
+        }
+      }
+
+
+      .right-col {
+        padding-bottom: 0px;
+        border: none;
       }
     }
   }
+}

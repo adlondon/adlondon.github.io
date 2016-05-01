@@ -1,0 +1,65 @@
+footer {
+  padding-top: 10%;
+  padding-bottom: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: $black;
+  h1 {
+    color: $white;
+    // border-bottom: 3px solid $blue;
+    // width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .contact {
+    // width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    .contact-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 15px;
+      font-size: 24px;
+      border: 1px solid $black;
+      width: 50px;
+      height: 50px;
+    }
+    .contact-info {
+      font-size: 14px;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+  #phone {
+    color: $white;
+    p {
+      margin-bottom: 10px;
+    }
+  }
+  .social-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    .social-icon {
+      margin:15px;
+      font-size: 34px;
+    }
+  }
+}
+
+a {
+  color: $white;
+  transition: all .3s ease-in-out;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+}

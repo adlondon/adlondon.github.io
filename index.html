@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew London's Resume</title>
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css"/>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,800,600,500,300' rel='stylesheet' type='text/css'>
@@ -13,6 +14,7 @@
   <body>
     <!-- Home Page -->
     <a id="home"></a>
+    <a id="home-res"></a>
     <header class="scroll">
       <div class="hero">
         <h1 class="tagline"><span>ANDREW</span> LONDON</h1>
@@ -29,11 +31,29 @@
           <a href="#contact"><li>CONTACT</li></a>
         </ul>
       </nav>
+      <div class="mobile-nav">
+       <div class="menu-button" id="menu-button">
+         <div></div>
+         <span></span>
+         <span></span>
+         <span></span>
+       </div>
+       <div class="responsive-menu scroll">
+          <ul>
+            <a href="#home-res" class="li-res"><li>HOME</li></a>
+            <a href="#about-res" class="li-res"><li>ABOUT</li></a>
+            <a href="#resume-res" class="li-res"><li>RESUME</li></a>
+            <a href="#portfolio-res" class="li-res"><li>PORTFOLIO</li></a>
+            <a href="#contact-res" class="li-res"><li>CONTACT</li></a>
+          </ul>
+       </div>
+      </div>
       <!-- Container Start -->
       <div class="container">
 
       <!-- About Page -->
       <a id="about" name="about"></a>
+      <a id="about-res" name="about-res"></a>
       <section class="about">
         <h1>ABOUT ME</h1>
         <div class="about-div">
@@ -63,58 +83,57 @@
 
       <!-- Resume Page -->
       <a id="resume" name="resume"></a>
+      <a id="resume-res" name="resume-res"></a>
       <section class="resume">
         <div class="resume-headings">
           <a href="Andrew London Resume 2016.pdf" target="_blank"><h1>RESUME <i class="faa-bounce animated fa fa-file-pdf-o" aria-hidden="true"></i></h1></a>
         </div>
         <div class="resume-div">
-          <div class="resume-col">
-            <div class="exp">
+          <ul class="resume-col">
+            <li class="exp" id="first-exp">
               <span class="arrow-right"></span>
               <!-- <span class="arrow-right-border"></span> -->
               <h3 class="resume-title">Anchored Solutions Inc.</h3>
               <h4>Co-owner, 2010-2012</h4>
               <p>
               </p>
-            </div>
-            <div class="exp">
+            </li>
+            <li class="exp">
+              <span class="arrow-left"></span>
+              <!-- <span class="arrow-right-border"></span> -->
+              <h3 class="resume-title">College of Charleston.</h3>
+              <h4>Class of 2011</h4>
+              <p>
+                <!-- Managed a treatment center for adult males with substance abuse diagnoses. -->
+              </p>
+            </li>
+            <li class="exp">
               <span class="arrow-right"></span>
               <!-- <span class="arrow-right-border"></span> -->
               <h3 class="resume-title">Hope Homes Inc.</h3>
               <h4>Counselor, 2011-2013</h4>
               <p>
-                <!-- Managed a treatment center for adult males with substance abuse diagnoses. -->
+                <!-- Oversaw sign installation and repair projects for national accounts from conception to completion. -->
               </p>
-            </div>
-            <div class="exp">
+            </li>
+            <li class="exp">
+              <span class="arrow-left"></span>
+              <!-- <span class="arrow-left-border"></span> -->
+              <h3 class="resume-title">Lazy Bean Coffee Co.</h3>
+              <h4>Co-owner, 2013 - Present</h4>
+              <p>
+              </p>
+            </li>
+            <li class="exp">
               <span class="arrow-right"></span>
-              <!-- <span class="arrow-right-border"></span> -->
+              <!-- <span class="arrow-left-border"></span> -->
               <h3 class="resume-title">Anchor Sign</h3>
               <h4>Project Manager, 2014-2015</h4>
               <p>
-                <!-- Oversaw sign installation and repair projects for national accounts from conception to completion. -->
-              </p>
-            </div>
-          </div>
-          <div class="resume-col right-col">
-            <div class="exp">
-              <span class="arrow-left"></span>
-              <!-- <span class="arrow-left-border"></span> -->
-              <h3 class="resume-title">College of Charleston</h3>
-              <h4>B.S. Sociology, Class of 2011</h4>
-              <p>
-              </p>
-            </div>
-            <div class="exp">
-              <span class="arrow-left"></span>
-              <!-- <span class="arrow-left-border"></span> -->
-              <h3 class="resume-title">Lazy Bean Coffee Co</h3>
-              <h4>Co-owner, 2013-present</h4>
-              <p>
                 <!-- Responsible for account acquisitions, production, and product distribution. -->
               </p>
-            </div>
-            <div class="exp">
+            </li>
+            <li class="exp" id ="last-exp">
               <span class="arrow-left"></span>
               <!-- <span class="arrow-right-border"></span> -->
               <h3 class="resume-title">The Iron Yard</h3>
@@ -122,13 +141,72 @@
               <p>
                 <!-- Studied Javascript frameworks and libraries as well as HTML and CSS. -->
               </p>
-              <!-- Portfolio tag moved to connect resume dividing line to portfolio -->
+              <!-- Portfolio tag moved to connect resume dviding line to portfolio -->
               <a id="portfolio"></a>
+              <a id="portfolio-res"></a>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+      <!-- <a id="resume" name="resume"></a>
+      <a id="resume-res" name="resume-res"></a>
+      <section class="resume">
+        <div class="resume-headings">
+          <a href="Andrew London Resume 2016.pdf" target="_blank"><h1>RESUME <i class="faa-bounce animated fa fa-file-pdf-o" aria-hidden="true"></i></h1></a>
+        </div>
+        <div class="resume-div">
+          <div class="resume-col">
+            <div class="exp" id="first-exp">
+              <span class="arrow-right"></span>
+              <h3 class="resume-title">Anchored Solutions Inc.</h3>
+              <h4>Co-owner, 2010-2012</h4>
+              <p>
+              </p>
+            </div>
+            <div class="exp">
+              <span class="arrow-right"></span>
+              <h3 class="resume-title">Hope Homes Inc.</h3>
+              <h4>Counselor, 2011-2013</h4>
+              <p>
+              </p>
+            </div>
+            <div class="exp">
+              <span class="arrow-right"></span>
+              <h3 class="resume-title">Anchor Sign</h3>
+              <h4>Project Manager, 2014-2015</h4>
+              <p>
+              </p>
+            </div>
+          </div>
+          <div class="resume-col right-col">
+            <div class="exp">
+              <span class="arrow-left"></span>
+              <h3 class="resume-title">College of Charleston</h3>
+              <h4>B.S. Sociology, Class of 2011</h4>
+              <p>
+              </p>
+            </div>
+            <div class="exp">
+              <span class="arrow-left"></span>
+              <h3 class="resume-title">Lazy Bean Coffee Co</h3>
+              <h4>Co-owner, 2013-present</h4>
+              <p>
+              </p>
+            </div>
+            <div class="exp" id ="last-exp">
+              <span class="arrow-left"></span>
+              <h3 class="resume-title">The Iron Yard</h3>
+              <h4> Front End Engineering Student, 2016</h4>
+              <p>
+              </p>
+              <a id="portfolio"></a>
+              <a id="portfolio-res"></a>
             </div>
 
           </div>
         </div>
-      </section>
+      </section> -->
     </div>
       <!-- Portfolio Page -->
       <section class="portfolio">
@@ -205,10 +283,24 @@
               </a>
             </div>
         </div>
+        <div class="portfolio-res">
+          <div class="portfolio-card">
+            <a href="https://adlondon.github.io/chuckwagon/public/myApp/www/#/tab/home">
+              <img src="chuck.png" alt="">
+              <h1>ChuckWagon App</h1>
+              <p>A food truck tracking app for the Charleston Area built with Ionic and the Google Maps API.</p>
+              <!-- <div class="button-wrap btn">
+                <a target="_blank" href="https://adlondon.github.io/chuckwagon/public/myApp/www/#/tab/home"><h3><i class="fa fa-external-link" aria-hidden="true"></i> LIVE</h3></a>
+                <a target="_blank" href="http://www.github.com/adlondon/chuckwagon"><h3><i class="fa fa-github-square" aria-hidden="true"></i> CODE</h3></a>
+              </div> -->
+            </a>
+          </div>
+        </div>
       </section>
       <!-- </div> -->
       <!-- Contact Page -->
       <a id="contact"></a>
+      <a id="contact-res"></a>
       <footer>
         <h1>CONTACT</h1>
         <a href="mailto:london.andrewd@gmail.com">

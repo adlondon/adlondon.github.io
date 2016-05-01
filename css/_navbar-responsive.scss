@@ -1,0 +1,52 @@
+@media only screen and (min-width : 0px) and (max-width : 800px) {
+  nav {
+    display: none;
+  }
+  .menu-button {
+   content: " ";
+  //  color: black;
+   position: fixed;
+   left: 90%;
+   top: 10%;
+   padding-right: 8px;
+   margin-top: -0.50em;
+   line-height: 1.2;
+   font-size: 18px;
+   font-weight: 200;
+   vertical-align: middle;
+   z-index: 10001;
+   span {
+     display: block;
+     width: 19px;
+     height: 3px;
+     margin: 4px 0;
+    //  background: rgb(0,0,0);
+     z-index: 100;
+     background: $black;
+    }
+   }
+   .menu-color {
+     background: white !important;
+   }
+   .responsive-menu{
+     padding-top: 10%;
+     display: none;
+     position: fixed;
+     top: 0px;
+     background-color:rgba(0,0,0,0.7);
+     width: 100%;
+     z-index: 1000;
+     ul {
+       padding: 0;
+       li {
+         text-align: center;
+         list-style-type: none;
+         margin: 20px;
+         font-size: 20px;
+       }
+     }
+    }
+  //  .expand {
+  //    display: block !important;
+  //   }
+  }

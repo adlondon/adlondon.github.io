@@ -2,12 +2,15 @@
   nav {
     display: none;
   }
+  #sticky-wrapper {
+    display: none;
+  }
   .menu-button {
    content: " ";
   //  color: black;
    position: fixed;
-   left: 90%;
-   top: 10%;
+   right: 5%;
+   top: 5%;
    padding-right: 8px;
    margin-top: -0.50em;
    line-height: 1.2;
@@ -17,9 +20,9 @@
    z-index: 10001;
    span {
      display: block;
-     width: 19px;
-     height: 3px;
-     margin: 4px 0;
+     width: 25px;
+     height: 4px;
+     margin: 5px 0;
     //  background: rgb(0,0,0);
      z-index: 100;
      background: $black;
@@ -46,7 +49,4 @@
        }
      }
     }
-  //  .expand {
-  //    display: block !important;
-  //   }
   }

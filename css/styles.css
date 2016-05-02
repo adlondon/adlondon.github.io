@@ -81,11 +81,13 @@ nav {
 @media only screen and (min-width: 0px) and (max-width: 800px) {
   nav {
     display: none; }
+  #sticky-wrapper {
+    display: none; }
   .menu-button {
     content: " ";
     position: fixed;
-    left: 90%;
-    top: 10%;
+    right: 5%;
+    top: 5%;
     padding-right: 8px;
     margin-top: -0.50em;
     line-height: 1.2;
@@ -95,9 +97,9 @@ nav {
     z-index: 10001; }
     .menu-button span {
       display: block;
-      width: 19px;
-      height: 3px;
-      margin: 4px 0;
+      width: 25px;
+      height: 4px;
+      margin: 5px 0;
       z-index: 100;
       background: #131B23; }
   .menu-color {
@@ -150,7 +152,7 @@ nav {
   .about {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 8%;
+    padding-top: 80px;
     justify-content: center; }
     .about .about-div {
       display: flex;
@@ -253,85 +255,81 @@ nav {
           font-size: 16px; }
 
 @media only screen and (min-width: 0px) and (max-width: 800px) {
-  .resume {
+  .resume h1 {
+    margin: 40px 0 60px 0; }
+  .resume .resume-div {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 10%;
-    justify-content: center; }
-    .resume h1 {
-      border: 2px solid #5E503F;
-      margin: 0 0 100px 0;
-      padding: 20px;
-      color: #2274A5;
-      transition: all .3s ease-in-out; }
-      .resume h1:hover {
-        background-color: #2274A5 !important;
-        color: #fff !important; }
-    .resume .resume-div {
+    justify-content: center;
+    width: 100%; }
+    .resume .resume-div .resume-col {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 75%;
-      border-left: 2px solid #2274A5; }
-      .resume .resume-div .resume-col {
-        display: flex;
-        flex-direction: column;
+      flex-direction: column;
+      width: 300px;
+      padding: 0;
+      text-align: LEFT;
+      margin: 0; }
+      .resume .resume-div .resume-col .resume-title {
+        font-weight: bold;
+        font-size: 22px;
+        color: #2274A5; }
+      .resume .resume-div .resume-col .exp {
+        list-style-type: none;
+        position: relative;
         width: 100%;
-        text-align: left;
-        margin-top: 0; }
-        .resume .resume-div .resume-col .resume-title {
-          font-weight: bold;
-          color: #2274A5; }
-        .resume .resume-div .resume-col .exp {
-          position: relative;
-          font-size: 20px;
-          margin: 0%;
-          padding: 26px 29px;
-          color: #5E503F; }
-          .resume .resume-div .resume-col .exp .arrow-right::before {
-            content: ' ';
-            display: block;
-            width: 10px;
-            height: 10px;
-            position: absolute;
-            top: 54px;
-            left: -6px;
-            border-radius: 10px;
-            z-index: 2;
-            background-color: #098B8C; }
-          .resume .resume-div .resume-col .exp .arrow-left::before {
-            content: ' ';
-            display: block;
-            width: 10px;
-            height: 10px;
-            position: absolute;
-            top: 54px;
-            left: -6px;
-            border-radius: 10px;
-            z-index: 2;
-            background-color: #098B8C; }
-          .resume .resume-div .resume-col .exp h5 {
-            font-size: 16px; }
-        .resume .resume-div .resume-col #first-exp {
-          padding-top: 0;
-          margin-top: -9px; }
-          .resume .resume-div .resume-col #first-exp .resume-title {
-            margin-top: 0; }
-          .resume .resume-div .resume-col #first-exp .arrow-right::before {
-            top: 8px; }
-        .resume .resume-div .resume-col #last-exp {
-          margin-left: -3px;
-          border-left: 4px solid white;
-          margin-top: 37px;
-          z-index: 2; }
-          .resume .resume-div .resume-col #last-exp h3 {
-            margin-top: -37px; }
-          .resume .resume-div .resume-col #last-exp .arrow-left::before {
-            top: -5px;
-            left: -7px; }
-      .resume .resume-div .right-col {
-        padding-bottom: 0px;
-        border: none; } }
+        font-size: 20px;
+        margin: 0%;
+        padding: 0 0 0 29px;
+        color: #5E503F;
+        margin-right: 0px;
+        border-right: none;
+        border-left: 2px solid #2274A5; }
+        .resume .resume-div .resume-col .exp:first-child {
+          padding-top: 0px; }
+          .resume .resume-div .resume-col .exp:first-child .arrow-right::before {
+            top: 0px; }
+          .resume .resume-div .resume-col .exp:first-child .resume-title {
+            margin-top: -7px; }
+        .resume .resume-div .resume-col .exp:last-child {
+          padding-bottom: 60px;
+          border-left: 4px solid white !important; }
+          .resume .resume-div .resume-col .exp:last-child .resume-title {
+            margin-top: -10px; }
+          .resume .resume-div .resume-col .exp:last-child .arrow-left::before {
+            top: -2px;
+            left: -8px; }
+        .resume .resume-div .resume-col .exp:nth-child(2n) {
+          margin-left: 0px;
+          margin-right: 0;
+          text-align: left;
+          border-right: none;
+          border-left: 2px solid #2274A5; }
+        .resume .resume-div .resume-col .exp:nth-child(5) {
+          padding-bottom: 35px; }
+        .resume .resume-div .resume-col .exp .arrow-right::before {
+          content: ' ';
+          display: block;
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          top: 29px;
+          left: -6px;
+          border-radius: 10px;
+          z-index: 2;
+          background-color: #098B8C; }
+        .resume .resume-div .resume-col .exp .arrow-left::before {
+          content: ' ';
+          display: block;
+          width: 10px;
+          height: 10px;
+          position: absolute;
+          top: 29px;
+          left: -6px;
+          border-radius: 10px;
+          z-index: 2;
+          background-color: #098B8C; }
+        .resume .resume-div .resume-col .exp h5 {
+          font-size: 16px; } }
 
 .carousel-control.left, .carousel-control.right, .item {
   background-image: none; }
@@ -436,13 +434,19 @@ nav {
     .portfolio .portfolio-h1 {
       border: none; }
     .portfolio .portfolio-res {
-      display: flex !important; }
-      .portfolio .portfolio-res .portfolio-card img {
-        width: 100%; }
-      .portfolio .portfolio-res .portfolio-card a {
-        color: #2274A5; }
-        .portfolio .portfolio-res .portfolio-card a p {
-          font-size: 20px; } }
+      display: flex !important;
+      flex-wrap: wrap;
+      flex-direction: column; }
+      .portfolio .portfolio-res .portfolio-card {
+        border-top: 2px solid #098B8C;
+        padding-top: 50px;
+        margin-bottom: 50px; }
+        .portfolio .portfolio-res .portfolio-card img {
+          width: 100%; }
+        .portfolio .portfolio-res .portfolio-card a {
+          color: #2274A5; }
+          .portfolio .portfolio-res .portfolio-card a p {
+            font-size: 20px; } }
 
 footer {
   padding-top: 10%;
@@ -523,6 +527,7 @@ footer {
     footer .contact .contact-info {
       font-size: 14px; }
       footer .contact .contact-info p {
+        font-size: 20px;
         margin-bottom: 0; }
   footer #phone {
     color: #fff; }

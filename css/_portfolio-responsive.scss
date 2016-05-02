@@ -14,7 +14,12 @@
     }
     .portfolio-res {
       display: flex !important;
+      flex-wrap: wrap;
+      flex-direction: column;
       .portfolio-card {
+        border-top: 2px solid $green;
+        padding-top: 50px;
+        margin-bottom: 50px;
         img {
           width: 100%;
         }
@@ -24,16 +29,6 @@
             font-size: 20px;
           }
         }
-        // .button-wrap {
-        //   display: flex;
-        //   justify-content: space-around;;
-        //   h3 {
-        //     color: $blue !important;
-        //     background-color: white;
-        //     border: 2px solid $blue;
-        //     padding: 10px;
-        //   }
-        // }
       }
     }
   }

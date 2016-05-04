@@ -112,4 +112,16 @@
   .portfolio-res {
     display: none;
   }
+  .github-link {
+    margin-top: 50px;
+    a {
+      color: $brown;
+      &:hover {
+        color: $brown;
+      }
+      span {
+        color: $blue;
+      }
+    }
+  }
 }

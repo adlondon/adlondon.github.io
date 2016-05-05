@@ -16,7 +16,7 @@
   .hero h3 {
     color: #fff;
     font-size: 30px;
-    padding: 0px;
+    padding: 5px;
     border-top: 2px solid #2274A5;
     border-bottom: 2px solid #2274A5; }
   .hero button {
@@ -45,6 +45,7 @@
   .hero h3 {
     color: #fff;
     font-size: 20px;
+    padding: 5px;
     border-top: 2px solid #2274A5;
     border-bottom: 2px solid #2274A5; }
   .hero button {

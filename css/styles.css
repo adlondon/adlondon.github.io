@@ -25,7 +25,10 @@
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
-    outline: none; }
+    outline: none;
+    transition: all .3s ease-in-out; }
+    .hero button:hover {
+      background-color: #2274A5; }
 
 .hero {
   display: flex;
@@ -54,7 +57,10 @@
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
-    outline: none; }
+    outline: none;
+    transition: all .3s ease-in-out; }
+    .hero button:hover {
+      background-color: #2274A5; }
 
 nav {
   width: 100%;

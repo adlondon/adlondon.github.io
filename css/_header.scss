@@ -28,5 +28,9 @@
     background-color: transparent;
     border: 1px solid $white;
     outline: none;
+    transition: all .3s ease-in-out;
+    &:hover {
+      background-color: $blue;
+    }
   }
 }

@@ -34,7 +34,7 @@ a {
   transition: all 1s ease-in-out; }
   .loading-wrapper.loaded {
     opacity: 0;
-    z-index: 0; }
+    z-index: -1; }
 
 .loading {
   display: inline-block;

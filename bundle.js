@@ -26156,7 +26156,7 @@ var App = function (_Component) {
                 { className: 'mw8 center pl3 pr3 w-100' },
                 _react2.default.createElement(
                   'div',
-                  { className: 'flex flex-column mt6 center' },
+                  { className: 'flex flex-column mt6 center items-center' },
                   _react2.default.createElement(
                     'div',
                     { className: 'f2 mb5 center' },

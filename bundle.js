@@ -26075,28 +26075,17 @@ var App = function (_Component) {
                 'div',
                 { className: 'flex mb3 justify-between flex-wrap' },
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'reacticon', toolName: 'React' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'es6icon', toolName: 'ECMA Script 6' }),
+                _react2.default.createElement(_RenderIcon2.default, { iconName: 'angularicon', toolName: 'AngularJS' }),
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'rnicon', toolName: 'React Native' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'parseicon', toolName: 'Parse Server' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'nodeicon', toolName: 'Node' })
+                _react2.default.createElement(_RenderIcon2.default, { iconName: 'sqlicon', toolName: 'SQL' })
               ),
               _react2.default.createElement(
                 'div',
                 { className: 'flex mb3 justify-between flex-wrap' },
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'giticon', toolName: 'git' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'webpackicon', toolName: 'webpack' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'gulpicon', toolName: 'Gulp' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'androidicon', toolName: 'Android Studio' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'xcodeicon', toolName: 'Xcode' })
-              ),
-              _react2.default.createElement(
-                'div',
-                { className: 'flex mb3 justify-between flex-wrap' },
+                _react2.default.createElement(_RenderIcon2.default, { iconName: 'htmlicon', toolName: 'HTML 5' }),
+                _react2.default.createElement(_RenderIcon2.default, { iconName: 'es6icon', toolName: 'ECMA Script 6' }),
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'css3icon', toolName: 'CSS 3' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'tachyonsicon', toolName: 'tachyons' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'sassicon', toolName: 'Sass' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'lessicon', toolName: 'less' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'bootstrapicon', toolName: 'Bootstrap' })
+                _react2.default.createElement(_RenderIcon2.default, { iconName: 'nodeicon', toolName: 'Node' })
               )
             ),
             _react2.default.createElement(
@@ -26209,7 +26198,7 @@ var RenderIcon = function RenderIcon(_ref) {
     { className: "flex-1 flex justify-center" },
     _react2.default.createElement(
       "div",
-      { className: "ml3 mr3 flex relative flex-wrap " + (wide ? "icon-wide" : "icon-wrapper") + " mb3" },
+      { className: "pl3 pr3 flex relative flex-wrap " + (wide ? "icon-wide" : "icon-wrapper") + " mb3" },
       _react2.default.createElement("div", { className: "skill-icon", style: { backgroundImage: "url('/images/" + iconName + ".png')" } }),
       _react2.default.createElement(
         "div",

@@ -26044,7 +26044,7 @@ var App = function (_Component) {
                     { rel: 'noopener noreferrer', target: '_blank', href: 'https://www.highpointclimbing.com/chattanooga/chattanooga-main' },
                     'rock climbing'
                   ),
-                  ', and making stuff at ',
+                  ', and creating at ',
                   _react2.default.createElement(
                     'a',
                     { rel: 'noopener noreferrer', target: '_blank', href: 'https://www.chattlab.org//' },
@@ -26069,11 +26069,11 @@ var App = function (_Component) {
               _react2.default.createElement(
                 'div',
                 { className: 'f2 mb5 center' },
-                'Stack'
+                'What I know best'
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'flex mb3 justify-between flex-wrap' },
+                { className: 'flex justify-between flex-wrap' },
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'reacticon', toolName: 'React' }),
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'angularicon', toolName: 'AngularJS' }),
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'rnicon', toolName: 'React Native' }),
@@ -26081,7 +26081,7 @@ var App = function (_Component) {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'flex mb3 justify-between flex-wrap' },
+                { className: 'flex justify-between flex-wrap' },
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'htmlicon', toolName: 'HTML 5' }),
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'es6icon', toolName: 'ECMA Script 6' }),
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'css3icon', toolName: 'CSS 3' }),
@@ -26110,7 +26110,7 @@ var App = function (_Component) {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'flex' },
+                { className: 'flex z-1' },
                 _react2.default.createElement(
                   'div',
                   { className: 'mw6 pointer', role: 'button', onClick: function onClick() {
@@ -26198,7 +26198,7 @@ var RenderIcon = function RenderIcon(_ref) {
     { className: "flex-1 flex justify-center" },
     _react2.default.createElement(
       "div",
-      { className: "pl3 pr3 flex relative flex-wrap " + (wide ? "icon-wide" : "icon-wrapper") + " mb3" },
+      { className: "pl3 pr3 flex relative flex-wrap " + (wide ? "icon-wide" : "icon-wrapper") + " mb5" },
       _react2.default.createElement("div", { className: "skill-icon", style: { backgroundImage: "url('/images/" + iconName + ".png')" } }),
       _react2.default.createElement(
         "div",
@@ -44760,7 +44760,7 @@ var GotchaModal = function GotchaModal() {
       _react2.default.createElement(
         "div",
         { className: "flex-1 ml4-l ml pb4-m pb4-l" },
-        "Gotcha Rides was the first app where I really cut my teeth on React Native development. The scope of the project ended up being pretty big, with a public facing passenger app, an internal driver app, and a web based admin portal. I was responsible for leading the front end team in planning, developing, and deploying the applications throughout the project lifecycle. I had the opportunity to tackle some really interesting problems, like updating branding for each vehicle based on their sponsor, and handling driver location accuracy across different devices."
+        "Gotcha Rides was the first app where I really cut my teeth on React Native development. The scope of the project ended up being pretty big, with a public facing passenger app, an internal driver app, and a web based admin portal. I was responsible for leading the front end team in planning, developing, and deploying the applications throughout the project lifecycle. I had the opportunity to tackle some really interesting problems, like real-time dynamic ride branding, and handling driver location accuracy across different devices."
       )
     ),
     _react2.default.createElement(
@@ -44922,7 +44922,7 @@ var MylaiModal = function MylaiModal() {
       _react2.default.createElement(
         "div",
         { className: "flex-1 ml4-l ml pb4-m pb4-l" },
-        "Mylai offered some really exciting opportunites for me as a developer. It ended up being the largest project that I have developed entirely on my own, and was the first mobile application I wrote with two user roles that allowed for two totally different functionalities within the same app. The project consisted of a client app, trainer app, and admin portal, and utilized sockets, geolocation, and push notifications for a rich user experience."
+        "Mylai offered some really exciting opportunites for me as a developer. At the time it was the largest project that I had developed entirely on my own, and was the first mobile application I wrote with multiple user roles that allowed for entirely separate functionalities within the same app. The project consisted of a client app, trainer app, and admin portal, and utilized sockets, geolocation, and push notifications for a rich user experience."
       )
     ),
     _react2.default.createElement(

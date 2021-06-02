@@ -26007,7 +26007,7 @@ var App = function (_Component) {
             ),
             _react2.default.createElement(
               'a',
-              { className: 'pa3', rel: 'noopener noreferrer', target: '_blank', href: '/images/Andrew London Resume - 2021.pdf' },
+              { className: 'pa3', rel: 'noopener noreferrer', target: '_blank', href: '/images/Andrew London Resume 2021.pdf' },
               'Resume'
             )
           ),
@@ -26087,9 +26087,9 @@ var App = function (_Component) {
                 'div',
                 { className: 'flex justify-between flex-wrap' },
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'reacticon', toolName: 'React' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'angularicon', toolName: 'AngularJS' }),
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'rnicon', toolName: 'React Native' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'sqlicon', toolName: 'SQL' })
+                _react2.default.createElement(_RenderIcon2.default, { iconName: 'sqlicon', toolName: 'SQL' }),
+                _react2.default.createElement(_RenderIcon2.default, { iconName: 'cypressicon', toolName: 'Cypress' })
               ),
               _react2.default.createElement(
                 'div',

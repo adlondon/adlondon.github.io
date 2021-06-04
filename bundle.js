@@ -26088,7 +26088,7 @@ var App = function (_Component) {
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'reacticon', toolName: 'React' }),
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'rnicon', toolName: 'React Native' }),
                 _react2.default.createElement(_RenderIcon2.default, { iconName: 'sqlicon', toolName: 'SQL' }),
-                _react2.default.createElement(_RenderIcon2.default, { iconName: 'cypressicon', toolName: 'Cypress' })
+                _react2.default.createElement(_RenderIcon2.default, { iconName: 'cypressIcon', toolName: 'Cypress' })
               ),
               _react2.default.createElement(
                 'div',

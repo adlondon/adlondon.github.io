@@ -25965,7 +25965,6 @@ var App = function (_Component) {
   }, {
     key: 'handleLink',
     value: function handleLink(button) {
-      console.log('button', button);
       if (button === 'phone') {
         document.location.href = "tel:7042871152";
       } else if (button === 'email') {

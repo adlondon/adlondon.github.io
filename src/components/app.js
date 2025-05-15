@@ -50,7 +50,7 @@ class App extends Component {
               <div className="flex flex-1 flex-column justify-center-l justify-end-m justify-end white flex-wrap">
                 <div className="f2">Hi, I'm Andrew</div>
                 <div className="mt3">I'm a software engineer living in beautiful Chattanooga, TN.</div>
-                <div className="mt3">Currently, I work at <a rel="noopener noreferrer" target="_blank" href="https://rhinogram.com">Rhinogram</a>, building HIPAA compliant communication tools for the healthcare sector.</div>
+                <div className="mt3">Currently, I'm a freelancer, building beautiful apps for the world wide web.</div>
                 <div className="mt3">In my free time, I enjoy <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/adlondon">woodworking</a>, <a rel="noopener noreferrer" target="_blank" href="https://www.highpointclimbing.com/chattanooga/chattanooga-main">rock climbing</a>, and creating at <a rel="noopener noreferrer" target="_blank" href="https://www.chattlab.org//">Chatt*Lab</a>.</div>
               </div>
               <div className="flex-1 flex items-end justify-end mt5"><img className=" mw5-m mw0-l w-80 headshot" src="/images/headshotfinal.png" alt="headshot" /></div>

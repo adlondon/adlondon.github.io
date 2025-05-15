@@ -43,7 +43,7 @@ class App extends Component {
         <div>
           <div className="absolute right-0 flex">
             <a className="pa3" rel="noopener noreferrer" target="_blank" href="https://github.com/adlondon">Github</a>
-            <a className="pa3" rel="noopener noreferrer" target="_blank" href="/images/Andrew London Resume 2021.pdf">Resume</a>
+            <a className="pa3" rel="noopener noreferrer" target="_blank" href="/images/Andrew London Resume 2025.pdf">Resume</a>
           </div>
           <div className="vh-100 w-100 white bg-brand-primary flex items-center pa4">
             <div className="flex vh-100 mw8 center flex-column-m flex-row-l flex-column">
